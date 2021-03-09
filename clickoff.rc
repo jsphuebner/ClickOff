@@ -1,0 +1,177 @@
+/* Wedit generated resource file */
+#ifdef __LCC__
+#include <windows.h>
+#endif
+#include "clickoffres.h"
+#include "version.h"
+
+IDD_MAINDIALOG DIALOG 0, 0, 178, 209
+STYLE DS_CENTER | DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ClickOff Fensterliste"
+CLASS "clickoff"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Maus über ein Fenster oder einen Button halten und den Hotkey (Standard: Strg+Alt+D) drücken, um einen Eintrag hinzuzufügen", ID_ITEXT, 6, 19, 166, 35
+    AUTOCHECKBOX    "&Programm aktiv", ID_ACTIVE, 6, 6, 85, 10
+    PUSHBUTTON      "&Entfernen", ID_REMOVE, 6, 136, 65, 19, WS_DISABLED
+    LTEXT           "&Fenster:", 110, 6, 59, 60, 10
+    LISTBOX         ID_LIST, 6, 70, 165, 65, LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Er&weitert...", ID_ADVANCED, 105, 136, 65, 19, WS_DISABLED
+    DEFPUSHBUTTON   "&Schließen", ID_CLOSE, 6, 183, 65, 19
+    PUSHBUTTON      "&Beenden", ID_EXIT, 106, 183, 65, 19
+END
+
+DLG_INFO DIALOG 101, 39, 231, 167
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION VERNAME
+FONT 8, "MS Sans Serif"
+CLASS "clickoff"
+BEGIN
+    LTEXT           "Dieses Freewareprogramm klickt auf störende (Fehler)meldungen. Für Updates auf meiner Webseite vorbeischauen.", 302, 37, 6, 154, 25
+    LTEXT           "Bei Problemen erst die Kurzanleitung lesen, dann fragen", 303, 37, 42, 154, 19
+    ICON            "ÿÿ ", 314, 5, 10, 32, 32
+    LTEXT           "Sprachdatei: Deutsch.lng von Johannes Hübner", 308, 38, 136, 167, 10
+    PUSHBUTTON      "&Anleitung anzeigen", ID_SHOWDOC, 42, 113, 79, 14
+    PUSHBUTTON      "&Supportanfrage", ID_EMAIL, 121, 113, 79, 14
+    GROUPBOX        "Kontakt", 307, 37, 62, 169, 71
+    LTEXT           "Johannes Hübner", 309, 43, 74, 97, 9
+    LTEXT           "clickoff@johanneshuebner.com", 310, 43, 86, 134, 9
+    LTEXT           "www.johanneshuebner.com", 311, 43, 98, 97, 11
+    LTEXT           "Gesamtanzahl Klicks:", 312, 38, 149, 79, 12
+    CTEXT           "0", ID_CLICKSUM, 121, 149, 43, 12
+END
+
+DLG_ADVANCED DIALOG 47, 1, 352, 183
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Erweitert"
+FONT 8, "MS Sans Serif"
+CLASS "clickoff"
+BEGIN
+    LTEXT           "&Fenstertitel", 518, 6, 7, 38, 9
+    EDITTEXT        ID_WINDOWTITLE, 45, 6, 129, 12, ES_AUTOHSCROLL
+    LTEXT           "&Buttontext", ID_STATICBTEXT, 6, 22, 35, 10
+    EDITTEXT        ID_BUTTONTEXT, 45, 20, 129, 12, ES_AUTOHSCROLL
+    GROUPBOX        "&Bedingung", 507, 6, 38, 168, 106, WS_GROUP
+    AUTORADIOBUTTON "K&eine Aktion (vorrübergehend deaktivieren)", ID_NEVERCLICK, 11, 50, 155, 10
+    AUTORADIOBUTTON "&Ohne Bedingung", ID_ALWAYSCLICK, 11, 63, 155, 10
+    AUTORADIOBUTTON "Klicken wenn &Text=", ID_CLICKWHENTEXT, 11, 77, 155, 10
+    EDITTEXT        ID_MSGTEXT, 11, 92, 150, 32, ES_MULTILINE | ES_AUTOVSCROLL | WS_DISABLED
+    LTEXT           "&Clickoff Methode:", 513, 182, 8, 59, 8
+    COMBOBOX        ID_CLICKOFFMETHOD, 246, 6, 100, 73, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Verzögerung", 501, 180, 38, 166, 106, WS_GROUP
+    AUTORADIOBUTTON "&keine", ID_NODELAY, 187, 50, 146, 10
+    AUTORADIOBUTTON "&Vor der Aktion", ID_PREDELAY, 187, 67, 146, 10
+    AUTORADIOBUTTON "&Nach der Aktion", ID_POSTDELAY, 187, 84, 146, 10
+    LTEXT           "verzögern &um:", 526, 197, 102, 139, 12, NOT WS_GROUP
+    EDITTEXT        ID_DELAY, 197, 117, 32, 12, ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Sekunden", 524, 238, 119, 63, 12, NOT WS_GROUP
+    LTEXT           "Dieser Button wurde", 515, 180, 163, 75, 12
+    CTEXT           "X", ID_CLICKNUMBER, 255, 163, 20, 12
+    LTEXT           "mal geklickt.", 517, 276, 163, 46, 12
+    PUSHBUTTON      "&Abbrechen", ID_CANCEL, 83, 159, 55, 18, WS_GROUP
+    DEFPUSHBUTTON   "O&K", ID_OK, 6, 159, 55, 18
+    AUTOCHECKBOX    "A&ktion nur einmal nach Erscheinen", ID_CLICKONCE, 11, 129, 155, 10
+END
+
+DLG_SETUP DIALOG 105, 41, 180, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "ClickOff Setup"
+FONT 8, "MS Sans Serif"
+CLASS "clickoff"
+BEGIN
+    DEFPUSHBUTTON   "OK", ID_OK, 69, 83, 40, 14
+    LTEXT           "Sprache/Language", 201, 6, 9, 68, 12
+    COMBOBOX        ID_LANG, 74, 6, 100, 52, CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    AUTOCHECKBOX    "Für alle Benutzer installieren/Install for all users", ID_COMMON, 7, 34, 137, 28, BS_MULTILINE
+END
+
+DLG_SETTINGS DIALOG 6, 7, 186, 240
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Einstellungen"
+FONT 8, "MS Sans Serif"
+CLASS "clickoff"
+BEGIN
+    PUSHBUTTON      "...", ID_BROWSELOGFILE, 152, 182, 18, 14
+    EDITTEXT        ID_LOGFILE, 14, 183, 136, 12, ES_AUTOHSCROLL
+    GROUPBOX        "Logdatei", 909, 6, 164, 174, 42
+    GROUPBOX        "&Hotkey zum hinzufügen", 902, 6, 6, 174, 46
+    LTEXT           "Tastenkombination:", 904, 12, 34, 71, 12
+    GROUPBOX        "Leistung", 911, 6, 60, 173, 41
+    LTEXT           "&Überprüfungsintervall:", 912, 11, 76, 84, 12
+    EDITTEXT        ID_SCANTIME, 101, 74, 32, 12, ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "ms", 907, 136, 76, 20, 12
+    GROUPBOX        "&Programmsprache", 908, 6, 111, 174, 42
+    COMBOBOX        ID_LANG, 14, 127, 153, 69, CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "O&K", ID_OK, 28, 220, 54, 14
+    PUSHBUTTON      "Abbre&chen", ID_CANCEL, 101, 220, 54, 14
+END
+
+DLG_EMPTY DIALOGEX 17, 22, 0, 0
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TRANSPARENT
+CAPTION "ClickOff"
+FONT 8, "MS Sans Serif"
+CLASS "clickoff"
+BEGIN
+END
+STRINGTABLE
+BEGIN
+    0, "Linksklick"
+    1, "Rechtsklick"
+    2, "Fenster schließen"
+    3, "Button-Message"
+    4, "Fenster maximieren"
+    5, "Fenster minimieren"
+    6, "Klick>Alt-Tab"
+    7, "Text eingeben"
+    8, "Linksklick auf Punkt"
+END
+MN_POPUP MENU
+BEGIN
+    POPUP "&File"
+        BEGIN
+        MENUITEM "&ClickOff öffnen...", MN_CONFIG
+        MENUITEM "&Einstellungen...", MN_SETTINGS
+        MENUITEM "&Aktiv", MN_ACTIVE
+        MENUITEM SEPARATOR
+        POPUP "&Fenster hinzufügen"
+            BEGIN
+            MENUITEM "(leer)", MN_ADDWIN
+            END
+        MENUITEM SEPARATOR
+        MENUITEM "&Info...", MN_INFO
+        MENUITEM "&Hilfe", MN_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden", MN_EXIT
+        END
+    POPUP "List"
+        BEGIN
+        POPUP "Liste &sortieren"
+            BEGIN
+            MENUITEM "Aufsteigend nach &Fenstertitel", MN_SORT_BYWIN_DES
+            MENUITEM "Absteigend nach F&enstertitel", MN_SORT_BYWIN_ASC
+            MENUITEM SEPARATOR
+            MENUITEM "Aufsteigend nach &Buttontext", MN_SORT_BYBUT_DES
+            MENUITEM "Absteigend nach B&uttontext", MN_SORT_BYBUT_ASC
+            MENUITEM SEPARATOR
+            MENUITEM "Aufsteigend nach &Meldungstext", MN_SORT_BYMSG_DES
+            MENUITEM "Absteigend nach Me&ldungstext", MN_SORT_BYMSG_ASC
+            MENUITEM SEPARATOR
+            MENUITEM "Aufsteigend nach &Klickanzahl", MN_SORT_BYCL_ASC
+            END
+        POPUP "Liste &exportieren"
+            BEGIN
+            MENUITEM "&Ganze Liste", MN_EXPORT_ALL
+            MENUITEM "&Nur Auswahl", MN_EXPORT_SEL
+            END
+        MENUITEM "Liste &importieren", MN_IMPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Alles markieren", MN_SEL_ALL
+        MENUITEM "Auswahl &umkehren", MN_INV_SEL
+        MENUITEM "Ent&fernen", MN_DEL
+        MENUITEM "&Doppelte entfernen", MN_REMDUPL
+        END
+END
+ID_MAINICON ICON "main.ico"
+ID_TRAYICON ICON "tray_enabled.ico"
+ID_ICODISABLED ICON "disabled.ico"

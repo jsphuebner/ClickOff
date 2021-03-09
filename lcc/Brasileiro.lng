@@ -1,0 +1,332 @@
+CLICKOFF LNG V1
+
+;Arquivo do idioma Português Brasileiro.
+;Você pode obter o arquivo para seu próprio idioma a partir deste.
+;Basta traduzir os textos em Português Brasileiro
+;para a sua própria língua.
+;Não altere os números entre [] (colchetes).
+;O maior tamanho do texto é de 511 caracteres.
+
+;Linksklick
+[0]
+"Clique-esquerdo do mouse"
+
+;Rechtsklick
+[1]
+"Clique-direito do mouse"
+
+;Fenster schließen
+[2]
+"Fechar a janela"
+
+;Button-Message
+[3]
+"Pressione o botão"
+
+;Fenster maximieren
+[4]
+"Maximizar janela"
+
+;Fenster minimieren
+[5]
+"Minimizar janela"
+
+;Klick>Alt-Tab
+[6]
+"Clique e retorno"
+
+;Text eingeben
+[7]
+"Digitar texto"
+
+;Linksklick auf Punkt
+[8]
+"Clique no ponto"
+
+;ClickOff Fensterliste
+[100]
+"Eventos ClickOff"
+
+;Beenden
+[101]
+"&Sair"
+
+;Schließen
+[103]
+"&Ocultar"
+
+;Halten sie die Maus über ein Fenster oder einen Button und drücken Sie den Hotkey (Standard: Strg+Alt+D) um einen Eintrag hinzuzufügen
+[105]
+"Aponte uma janela ou botão com o mouse e pressione a tecla de atalho (padrão: Ctrl+Alt+D) para adicionar um novo evento."
+
+;&Fenster:
+[110]
+"Lista de eventos:"
+
+;&Entfernen
+[112]
+"&Remover"
+
+;Erweitert
+[113]
+"&Avançado"
+
+;&Programm aktiv
+[114]
+"&Escanear janelas"
+
+;Über ClickOff
+[300]
+"ClickOff 1.90"
+
+[302]
+"Este programa gratuito clica as irritantes mensagens (de erro) automaticamente.
+Procure por atualizações na minha homepage."
+
+[303]
+"Caso tenha dificuldades, leia o FAQ antes de pedir ajuda (em Inglês ou Alemão, por favor)."
+
+[304]
+"&Mostrar FAQ"
+
+[305]
+"&Pedir ajuda"
+
+[307]
+"Contato"
+
+;Add your own credits here
+[308]
+"Arquivo de idioma: Brasileiro.lng by Euler German."
+
+[312]
+"Total de cliques"
+
+;Erweitert
+[500]
+"Opções Avançadas"
+
+[501]
+"Atuação"
+
+[502]
+"&Imediata"
+
+[503]
+"&Cancelar"
+
+[504]
+"O&K"
+
+[507]
+"Ações no evento"
+
+[508]
+"&Nunca clicar"
+
+[509]
+"Clicar s&empre"
+
+[510]
+"Clicar se &diálogo for = (use tecla de atalho)"
+
+[511]
+"&Detectar texto"
+
+[513]
+"Métodos Clic&kOff"
+
+[514]
+"Atuar somente após e&xibição da janela"
+
+[515]
+"Clicados:"
+
+[517]
+"vezes."
+
+[518]
+"&Título"
+
+[520]
+"&Aguardar antes"
+
+[521]
+"&Botão"
+
+[524]
+"segundos"
+
+[525]
+"Aguardar &depois"
+
+[526]
+"por:"
+
+[600]
+"Adicionar janela"
+
+[800]
+"Detectar"
+
+[801]
+"Apontar botão por 2 segundos para ser detectado."
+
+[802]
+"Informações"
+
+[900]
+"Preferências"
+
+[901]
+"&Habilitar"
+
+[902]
+"Tecla de atalho"
+
+[911]
+"Performance"
+
+[904]
+"Conjunto de teclas"
+
+[906]
+"Exibir ícone na &bandeja"
+
+[907]
+"ms"
+
+[908]
+"&Idioma do programa"
+
+[909]
+"Arquivo de &registro"
+
+[912]
+"Escanear janelas a cada:"
+
+[1001]
+"E&xibir..."
+
+[1002]
+"&Preferências..."
+
+[1003]
+"&Habilitar"
+
+[1004]
+"Adicionar &janela"
+
+[1005]
+"&Sobre..."
+
+[1006]
+"&Ajuda"
+
+[1007]
+"Menu de contexto"
+
+[1008]
+"Sai&r"
+
+[1010]
+"&Ordenação da lista"
+
+[1011]
+"&Ascendente pelo título da janela"
+
+[1012]
+"&Descendente pelo título da janela"
+
+[1013]
+"Ascendente pelo texto do &botão"
+
+[1014]
+"Descendente pelo &texto do botão"
+
+[1015]
+"Ascendente pelo texto da &mensagem"
+
+[1016]
+"Descendente pelo te&xto da mensagem"
+
+[1017]
+"Descendente pelo número de &cliques"
+
+[1020]
+"&Exportar lista"
+
+[1021]
+"&Toda a lista"
+
+[1022]
+"&Seleção"
+
+[1031]
+"Selecionar &tudo"
+
+[1032]
+"In&verter seleção"
+
+[1033]
+"E&xcluir seleção"
+
+[1034]
+"&Importar lista"
+
+[1036]
+"Remover &duplicidades"
+
+;ClickOff - deaktiviert
+[10001]
+"ClickOff - desabilitado"
+
+[10004]
+"Erro do usuário"
+
+[10005]
+"Aviso"
+
+;Help file topic for english pages
+[10006]
+"getting_started_br.html"
+
+;Kann nicht auf die ClickOff-Liste zugreifen
+[10007]
+"Impossível acessar a listagem ClickOff"
+
+;ClickOff Liste unvollständig, möglicherweise wegen einem vorhergehenden Absturz
+[10008]
+"Fim de arquivo não esperado. Talvez tenha ocorrido uma queda do sistema."
+
+;Formatfehler in ClickOff-Liste. Haben Sie die Datei von Hand bearbeitet?
+[10009]
+"Erro de sintaxe na listagem ClickOff. Você tentou editá-la?"
+
+;Unbekannter Tag in ClickOff-Liste.
+;-Haben Sie die Datei von Hand bearbeitet?
+;-Stammt die Datei von einer neueren Version?
+;
+;Beim erneuten Speichern werden u.U. Informationen verloren gehen.
+[10010]
+"Elemento desconhecido na listagem ClickOff.
+-Você tentou editá-la?
+-Ela foi gravada por uma versão mais nova?
+
+Você poderá perder informações quando esta versão gravar no arquivo."
+
+;E/A-Fehler
+[10011]
+"Erro de I/O (Entrada/Saída)"
+
+;"Listen\0*.lst\0Alle Dateien\0*.*\0\0"
+[10012]
+"Listagem\0*.lst\0Todos Arquivos\0*.*\0\0"
+
+;Wenn kein Hotkey definiert ist, können keine Fenster hinzugefügt werden!
+[10013]
+"Se você não definir uma tecla de atalho, não poderá adicionar eventos!"
+
+;Ausfüllen mit
+[10014]
+"Digitar:"
