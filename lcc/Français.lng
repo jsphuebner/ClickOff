@@ -1,0 +1,332 @@
+CLICKOFF LNG V1
+
+;Fichier de langue française
+;Vous pouvez dériver votre propre fichier de langue à partir de celui-ci
+;Traduisez toutes les chaînes que vous trouvez ici en français
+;dans votre langue
+;Ne pas modifier les numéros entre []
+;La taille maximum des texte est de 511 caractères
+
+;Linksklick
+[0]
+"Clic gauche"
+
+;Rechtsklick
+[1]
+"Clic droit"
+
+;Fenster schließen
+[2]
+"Fermer la fenêtre"
+
+;Button-Message
+[3]
+"Button message"
+
+;Fenster maximieren
+[4]
+"Agrandir la fenêtre"
+
+;Fenster minimieren
+[5]
+"Minimiser la fenêtre"
+
+;Klick>Alt-Tab
+[6]
+"Clic et Entrée"
+
+;Text eingeben
+[7]
+"Entrer le texte"
+
+;Linksklick auf Punkt
+[8]
+"Pointer et clic gauche"
+
+;ClickOff Fensterliste
+[100]
+"Liste ClickOff"
+
+;Beenden
+[101]
+"&Quitter ClickOff"
+
+;Schließen
+[103]
+"&Masquer ClickOff"
+
+;Halten sie die Maus über ein Fenster oder einen Button und drücken Sie den Hotkey (Standard: Strg+Alt+D) um einen Eintrag hinzuzufügen
+[105]
+"Faire passer la souris sur une fenêtre ou un bouton et faire le raccourci clavier (par défaut: Ctrl+Alt+D) pour ajouter une fenêtre."
+
+;&Fenster:
+[110]
+"Liste des fenêtres:"
+
+;&Entfernen
+[112]
+"&Supprimer"
+
+;Erweitert
+[113]
+"&Avancé"
+
+;&Programm aktiv
+[114]
+"&Programmes actifs:"
+
+;Über ClickOff
+[300]
+"ClickOff 1.90"
+
+[302]
+"Ce gratuiciel ferme les fenêtres indésirables (Pop-ups, fenêtres d'erreur, etc.).
+Visitez ma homepage pour les mises à jour"
+
+[303]
+"En cas de problème, consultez la FAQ, puis demandez de l'aide"
+
+[304]
+"&Montrer la FAQ"
+
+[305]
+"&Demander de l'aide"
+
+[307]
+"Contact"
+
+;Add your own credits here
+[308]
+"Fichier langue: français.lng par Antoine Bajard"
+
+[312]
+"Nombre total de clics :"
+
+;Erweitert
+[500]
+"Propriétés avancées"
+
+[501]
+"Temps/Délai"
+
+[502]
+"Aucun délai"
+
+[503]
+"&Annuler"
+
+[504]
+"O&K"
+
+[507]
+"&Réglages du clic"
+
+[508]
+"&Ne jamais cliquer"
+
+[509]
+"&Toujours cliquer"
+
+[510]
+"Cliquer si message=(Détecter le raccourci clavier)"
+
+[511]
+"&Texte de détection"
+
+[513]
+"Méthode de ClickOff"
+
+[514]
+"Activer uniquement après affichage de la fenêtre"
+
+[515]
+"Nombre de clics"
+
+[517]
+"fois."
+
+[518]
+"&Titre"
+
+[520]
+"Délai avant"
+
+[521]
+"&Bouton"
+
+[524]
+"secondes"
+
+[525]
+"Délai après"
+
+[526]
+"de :"
+
+[600]
+"Ajouter la fenêtre"
+
+[800]
+"Détecter"
+
+[801]
+"Pointer le bouton 2 secondes pour détecter"
+
+[802]
+"Information"
+
+[900]
+"Réglages"
+
+[901]
+"&Actif"
+
+[902]
+"Raccourci clavier pour ajouter"
+
+[911]
+"Performance"
+
+[904]
+"Combinaison"
+
+[906]
+"Afficher l'icône"
+
+[907]
+"ms"
+
+[908]
+"&Langue du programme"
+
+[909]
+"Log &file"
+
+[912]
+"Intervalle de vérification"
+
+[1001]
+"&Montrer ClickOff..."
+
+[1002]
+"&Réglages..."
+
+[1003]
+"&Actif"
+
+[1004]
+"Ajouter la &fenêtre"
+
+[1005]
+"&A propos..."
+
+[1006]
+"&Aide"
+
+[1007]
+"Dismiss menu"
+
+[1008]
+"&Quitter"
+
+[1010]
+"&Tri de la liste"
+
+[1011]
+"&Titre de fenêtre ascendant"
+
+[1012]
+"T&itre de fenêtre descendant"
+
+[1013]
+"T&exte du bouton ascendant"
+
+[1014]
+"Te&xte du bouton descendant"
+
+[1015]
+"&Message ascendant"
+
+[1016]
+"Me&ssage descendant"
+
+[1017]
+"Par nombre de &clics"
+
+[1020]
+"&Exporter la liste"
+
+[1021]
+"&Liste entière"
+
+[1022]
+"&Selection"
+
+[1031]
+"&Tout sélectionner"
+
+[1032]
+"&Inverser la sélection"
+
+[1033]
+"&Supprimer la sélection"
+
+[1034]
+"&Importer la liste"
+
+[1036]
+"Supprimer les &doublons"
+
+;ClickOff - deaktiviert
+[10001]
+"ClickOff - désactivé"
+
+[10004]
+"Erreur utilisateur"
+
+[10005]
+"Avertissement"
+
+;Help file topic for english pages
+[10006]
+"getting_started_en.html"
+
+;Kann nicht auf die ClickOff-Liste zugreifen
+[10007]
+"Imporrible d'accéder au fichier de liste ClickOff"
+
+;ClickOff Liste unvollständig, möglicherweise wegen einem vorhergehenden Absturz
+[10008]
+"Fin de fichier inattendue, peut-être avez-vous eu un crash système?"
+
+;Formatfehler in ClickOff-Liste. Haben Sie die Datei von Hand bearbeitet?
+[10009]
+"Erreur de syntaxe dans le fichier de liste ClickOff. Peut-être avez vous édité le fichier vous-même?"
+
+;Unbekannter Tag in ClickOff-Liste.
+;-Haben Sie die Datei von Hand bearbeitet?
+;-Stammt die Datei von einer neueren Version?
+;
+;Beim erneuten Speichern werden u.U. Informationen verloren gehen.
+[10010]
+"Tag inconnu dans la liste ClickOff.
+-L'avez-vous édité vous-même?
+-Vient-il d'une version ultérieure?
+
+You might loose information when file is written by this version."
+
+;E/A-Fehler
+[10011]
+"Erreur E/S"
+
+;"Listen\0*.lst\0Alle Dateien\0*.*\0\0"
+[10012]
+"Liste des fichiers\0*.lst\Tous les fichiers\0*.*\0\0"
+
+;Wenn kein Hotkey definiert ist, können keine Fenster hinzugefügt werden!
+[10013]
+"Sans définir de raccourci clavier, vous ne pourrez ajouter de fenêtres!"
+
+;Ausfüllen mit
+[10014]
+"Remplir:"

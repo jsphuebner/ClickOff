@@ -1,0 +1,53 @@
+<HTML>
+<!-- CREATION DATE: 05.04.2012 -->
+<HEAD>
+<TITLE>Introdução ao ClickOff</TITLE>
+<META NAME="Description" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Author" CONTENT="Euler German">
+<META NAME="Generator" CONTENT="WinMerge">
+</HEAD>
+<BODY>
+<h1>Usos Comuns</h1>
+<h2>Clicar um botão automaticamente</h2>
+Quando o diálogo que contém o botão for exibido, aponte o cursor do mouse para o botão e pressione a tecla de atalho do ClickOff no seu teclado (padrão: Ctrl+Alt+D). Você também pode usar este procedimento também para caixas de seleção e botões de rádio.
+
+<h2>Fechar uma janela automaticamente</h2>
+Quando a janela ou diálogo for exibida, aponte o cursor do mouse para sua barra de título e pressione a tecla de atalho do ClickOff no seu teclado (padrão: Ctrl+Alt+D).
+
+<h2>Digitar um texto automaticamente</h2>
+Com o campo de digitação visível em sua tela, dê um duplo-clique do mouse no ícone do ClickOff (na bandeja do sistema) para abrir sua lista de eventos. Em seguida, aponte o cursor do mouse para o campo de entrada e pressione a tecla de atalho do ClickOff no seu teclado (padrão: Ctrl+Alt+D). Dê um duplo-clique do mouse no evento recém criado (estará no final da lista) e informe o texto a ser digitado no campo <i>Digitar:</i>.<br>
+<b>Eu enfaticamente desencorajo o uso desta função para a digitação de senhas, já que os textos são salvos sem qualquer proteção (i.e. criptografia) nas listas de eventos do ClickOff!</b>
+
+<h1>Problemas</h1>
+<h2>Um botão não é clicado/um texto não é digitado</h2>
+Causas prováveis:
+<ol>
+<li>O botão/campo de texto não é um recurso padronizado das bibliotecas do Windows<br>
+<b>Solução:</b> A partir da versão 1.83 o ClickOff pode atuar também com esses botões. Ele consegue isso simplesmente clicando em uma coordenada absoluta da janela ou diálogo. <b>Por favor, tenha cuidado!</b> ClickOff vai clicar na posição indicada em qualquer janela/diálogo que tenha o mesmo título! Isto pode causar efeitos indesejáveis.
+
+<li>O botão está sombreado por uma borda. O ClickOff vai detectar a borda ao invés do botão e a borda não pode ser clicada.<br>
+<b>Solução:</b> Informe o texto (descrição) do botão, manualmente, nos locais apropriados. Favor tomar cuidado com letras sublinhadas que são criadas pela precedência do caracter "&". Assim, se o texto do botão é <i>C<u>a</u>ncelar</i> você deverá informar <i>C&ancelar</i>, literalmente.
+
+</ol>
+
+<h1>FAQ</h1>
+<ol>
+<li><b>Q:</b> O ClickOff funciona com Windows Vista/Windows 7?<br>
+<b>A:</b> Eu tenho relatos de ambos: ele funciona ou não. Eu não tenho meios de saber; a última versão do Windows que eu tenho é a XP, num netbook. Todas as outras máquinas rodam Linux. Vá em frente e tente, ele não vai quebrar nada.<br>
+<b>N.T.</b> Problemas de uso nos Windows Vista e 7 podem estar relacionados ao local onde os arquivos de serviço do ClickOff foram instalados. Assim, arquivos de lista de eventos (e.g. clickoff.lst), de configuração (e.g. clickoff.cfg) e de registro (e.g. clickoff.log) devem ser salvos para pastas nas quais o Windows permita acesso de gravação e leitura irrestritas.
+
+<li><b>Q:</b> Para onde foi o assistente?<br>
+<b>A:</b> Ele foi abandonado em favor do método de tecla de atalho. Usuários reclamavam do excesso de cliques e digitação para se adicionar um novo botão, então eu optei por algo mais simples.
+
+<li><b>Q:</b> Dentre as propriedades no painel das "Opções Avançadas", existia um botão "Detectar texto". Para onde ele foi e como eu faço para detectar texto sem ele?<br>
+<b>A:</b> Também ele ficou redundante pela tecla de atalho. Agora, para (re)detectar um texto, basta apontá-lo com o cursor do mouse, pressionar a tecla de atalho e só!
+
+<li><b>Q:</b> Para onde foi o arquivo da lista de eventos?<br>
+<b>A:</b> Você é que determina isto quando instala o ClickOff. Ou ele vai para sua pasta pessoal de dados de aplicativos (padrão: <i>c:\documents and settings\(myusername)\dados de aplicativos\clickoff</i>) ou para a geral (padrão: <i>c:\documents and settings\All Users\dados de aplicativos\clickoff</i>). Se não estiver em nenhuma dessas, ClickOff também vai procurar no seu diretório de partida (padrão: <i>c:\arquivos de programas\clickoff</i>)
+
+<li><b>Q:</b> ClickOff falha/não inicia!<br>
+<b>A:</b> O mais comum é a existência de erros na lista de eventos ou no arquivo de configuração. Apesar de ter cercado a maioria dos erros possíveis, é provável que alguma situação absurda tenha escapado. Assim, se você for me comunicar, anexe a lista de eventos e o arquivo de configuração (veja acima onde encontrá-los) em uso para inspeção. Por favor, <b>não mande os relatórios <i>crash dumps</i> gerados pelo Windows</b>, já que não me servem.
+</ol>
+</BODY>
+</HTML>

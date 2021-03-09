@@ -1,0 +1,52 @@
+<HTML>
+<!-- CREATION DATE: 12.04.2007 -->
+<HEAD>
+<TITLE>ClickOff Introduction</TITLE>
+<META NAME="Description" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Author" CONTENT="Johannes Huebner">
+<META NAME="Generator" CONTENT="AceExpert">
+</HEAD>
+<BODY>
+<h1>Common Scenarios</h1>
+<h2>Automatically click a button</h2>
+When the window containing the button shows up, point your mouse on the button and press the ClickOff hotkey on your keyboard (default: Ctrl+Alt+D). You can apply this procedure to checkboxes and radioboxes as well.
+
+<h2>Automatically close a window</h2>
+When the window to be closed shows up, point your mouse on its title bar and press the ClickOff hotkey on your keyboard (default: Ctrl+Alt+D).
+
+<h2>Automatically fill in a text</h2>
+When the text field is on your screen, double-click the ClickOff icon to open the ClickOff list. Then point your mouse on the text field and press the ClickOff hotkey on your keyboard (default: Ctrl+Alt+D). Double-click the new entry (at the bottom of the list) and enter the text to be filled in into the <i>Fill in:</i> text field.<br>
+<b>I strongly discourage using this function to fill in passwords since the data is saved without encryption in the ClickOff list!</b>
+
+<h1>Problems</h1>
+<h2>A button isn't clicked/a text field not filled in</h2>
+Probable causes:
+<ol>
+<li>The button/text field is not taken from the windows standard libraries<br>
+<b>Solution:</b> Starting from version 1.83 ClickOff can handle these buttons as well. It does so by simply clicking on a constant location within the window. <b>Please be careful though!</b> ClickOff will click this location in any window that has the same title! This might have unintended effects.
+
+<li>The button is invisibly overlayed by a border. ClickOff will then detect the border instead of the button and the border of course cannot be clicked.<br>
+<b>Solution:</b> Enter the buttons text manually in the entries properties. Please note that the underlined letter is created by using the &-sign. So for example if a buttons text is <i>C<u>a</u>ncel</i> you have to enter <i>C&ancel</i>.
+
+</ol>
+
+<h1>FAQ</h1>
+<ol>
+<li><b>Q:</b> Does ClickOff work with Windows Vista/Windows 7?<br>
+<b>A:</b> I've had reports stating both, it does or doesn't work. I don't know, the latest version of windows I use is Windows XP on a netbook. All other machines run Linux. Just try it, it won't break anything.
+
+<li><b>Q:</b> where did the wizard go?<br>
+<b>A:</b> Its been abandoned in favor of the hotkey method. People complained about the long clicking and typing procedure of adding a new button, so I tried to come up with something simpler.
+
+<li><b>Q:</b> On the "Advanced Properties" dialog there used to be a "Detect text" button. Where did it go and how can I re-detect text without it?<br>
+<b>A:</b> That's also been made redundant by the hotkey. So now if you want to re-detect, just point on the text and press the hotkey - done!
+
+<li><b>Q:</b> where did the list file go?<br>
+<b>A:</b> You kind of decide that when you install ClickOff. It either goes into your personal application data directory (default: c:\documents and settings\(myusername)\application data\clickoff) or into the global one (default: c:\documents and settings\All Users\application data\clickoff). If its in neither of those places, ClickOff will also look in its startup directory (default: c:\program files\clickoff)
+
+<li><b>Q:</b> ClickOff crashes/doesn't start up!<br>
+<b>A:</b> Usually its an error in the list or config file. Even though I've tried to catch most errors I still might have missed some absurd scenarios. So if you write to me about ClickOff crashing, please attach the list file (see above about how to find it) and the config file for me to inspect. Please don't attach windows crash dumps, they haven't helped me yet.
+</ol>
+</BODY>
+</HTML>

@@ -1,0 +1,332 @@
+CLICKOFF LNG V1
+
+;English language file
+;You can derrive your own language file from this one
+;Just translate all strings you find from English
+;to your own language.
+;Don't change the numbers in []
+;The maximum text length is 511 characters
+
+;Linksklick
+[0]
+"Click sinistro"
+
+;Rechtsklick
+[1]
+"Click destro"
+
+;Fenster schließen
+[2]
+"Chiudi finestra"
+
+;Button-Message
+[3]
+"Messaggio pulsante"
+
+;Fenster maximieren
+[4]
+"Ingrandisci finestra"
+
+;Fenster minimieren
+[5]
+"Riduci ad icona la finestra"
+
+;Klick>Alt-Tab
+[6]
+"Click e Invio"
+
+;Text eingeben
+[7]
+"Inserisci testo"
+
+;Linksklick auf Punkt
+[8]
+"Click sinistro sotto al puntatore"
+
+;ClickOff Fensterliste
+[100]
+"Lista di ClickOff"
+
+;Beenden
+[101]
+"&Chiudi ClickOff"
+
+;Schließen
+[103]
+"&Nascondi ClickOff"
+
+;Halten sie die Maus über ein Fenster oder einen Button und drücken Sie den Hotkey (Standard: Strg+Alt+D) um einen Eintrag hinzuzufügen
+[105]
+"Punta il mouse su una finestra o pulsante e premi la scorciatoia (di default: Ctrl+Alt+D) per aggiungere una nuova voce."
+
+;&Fenster:
+[110]
+"Titolo finestre:"
+
+;&Entfernen
+[112]
+"&Rimuovi"
+
+;Erweitert
+[113]
+"A&vanzate..."
+
+;&Programm aktiv
+[114]
+"Abilita ClickOff"
+
+;Über ClickOff
+[300]
+"ClickOff 1.90"
+
+[302]
+"Questa applicazione freeware clicca sui noiosi messaggi (di errore).
+Controlla sulla mia homepage gli aggiornamenti."
+
+[303]
+"In caso di problemi, leggi le FAQ, e solo dopo chiedi aiuto"
+
+[304]
+"Mo&stra FAQ"
+
+[305]
+"Chiedi &aiuto"
+
+[307]
+"Contatti"
+
+;Add your own credits here
+[308]
+"Traduzione di italiano.lng by Ringo"
+
+[312]
+"Click totali"
+
+;Erweitert
+[500]
+"Proprietà avanzate"
+
+[501]
+"Tempo/ritardo"
+
+[502]
+"Nessun ritardo"
+
+[503]
+"&Annulla"
+
+[504]
+"O&K"
+
+[507]
+"Azione del &click"
+
+[508]
+"&Non cliccare mai"
+
+[509]
+"Clicc&a sempre"
+
+[510]
+"Se testo del &messaggio = (cattura con scorciatoia)"
+
+[511]
+"Rile&va testo"
+
+[513]
+"Metodo di Click&off"
+
+[514]
+"Agisci sulla finestra dopo l'apparizione"
+
+[515]
+"È stata cliccata"
+
+[517]
+"volte."
+
+[518]
+"&Titolo"
+
+[520]
+"&Ritarda prima"
+
+[521]
+"Testo p&ulsante"
+
+[524]
+"secondi"
+
+[525]
+"Rit&arda dopo"
+
+[526]
+"per:"
+
+[600]
+"Aggiungi finestra"
+
+[800]
+"Rileva"
+
+[801]
+"Per essere rilevato, punta per 2 secondi sul pulsante."
+
+[802]
+"Informazione"
+
+[900]
+"Opzioni"
+
+[901]
+"&Abilita"
+
+[902]
+"Combinazione da tastiera per aggiungere finestre"
+
+[911]
+"Performance"
+
+[904]
+"Scorciatoia tastiera"
+
+[906]
+"Mos&tra icona nella barra di sistema"
+
+[907]
+"ms"
+
+[908]
+"Lingua &programma"
+
+[909]
+"&File di log"
+
+[912]
+"Intervallo d'intervento"
+
+[1001]
+"&Mo&stra ClickOff..."
+
+[1002]
+"&Impostazioni..."
+
+[1003]
+"&Abilita"
+
+[1004]
+"Aggiungi &finestra"
+
+[1005]
+"I&nfo..."
+
+[1006]
+"Ai&uto"
+
+[1007]
+"Chiudi menu"
+
+[1008]
+"&Esci"
+
+[1010]
+"Ordina li&sta"
+
+[1011]
+"Ascendente in base al titolo della fin&estra"
+
+[1012]
+"Discendente in base al t&itolo della finestra"
+
+[1013]
+"Ascendente in &base al testo del pulsante"
+
+[1014]
+"Discendente in base al testo del &pulsante"
+
+[1015]
+"Ascendente in base al testo del &messaggio"
+
+[1016]
+"Discendente in base al testo del messa&ggio"
+
+[1017]
+"Ascendente in base al numero di &click"
+
+[1020]
+"&Esporta lista"
+
+[1021]
+"Lista int&era"
+
+[1022]
+"&Selezione"
+
+[1031]
+"Sele&ziona tutto"
+
+[1032]
+"In&verti selezione"
+
+[1033]
+"Elimina i &selezionati"
+
+[1034]
+"&Importa lista"
+
+[1036]
+"Rimuovi &duplicati"
+
+;ClickOff - deaktiviert
+[10001]
+"ClickOff - disabilitato"
+
+[10004]
+"Errore dell'utente"
+
+[10005]
+"Attenzione"
+
+;Help file topic for english pages
+[10006]
+"getting_started_en.html"
+
+;Kann nicht auf die ClickOff-Liste zugreifen
+[10007]
+"Impossibile accedere al file della lista di ClickOff"
+
+;ClickOff Liste unvollständig, möglicherweise wegen einem vorhergehenden Absturz
+[10008]
+"Fine inaspettata del file, forse hai avuto un crash di sistema?"
+
+;Formatfehler in ClickOff-Liste. Haben Sie die Datei von Hand bearbeitet?
+[10009]
+"Errore di sintassi nella lista di ClickOff. Vuoi provare a modificarla tu?"
+
+;Unbekannter Tag in ClickOff-Liste.
+;-Haben Sie die Datei von Hand bearbeitet?
+;-Stammt die Datei von einer neueren Version?
+;
+;Beim erneuten Speichern werden u.U. Informationen verloren gehen.
+[10010]
+"Tag sconosciuto nella lista di ClickOff.
+-Vuoi provare a modificarla tu?
+-È stata scritta per una nuova versione?
+
+Potresti perdere informazioni se il file viene scritta con questa versione."
+
+;E/A-Fehler
+[10011]
+"errore I/O"
+
+;"Listen\0*.lst\0Alle Dateien\0*.*\0\0"
+[10012]
+"File della lista\0*.lst\0Tutti i file\0*.*\0\0"
+
+;Wenn kein Hotkey definiert ist, können keine Fenster hinzugefügt werden!
+[10013]
+"Se non definisci una scorciatoia da tastiera, non potrai aggiungere nuove finestre!"
+
+;Ausfüllen mit
+[10014]
+"Riempi:"

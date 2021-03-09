@@ -1,0 +1,332 @@
+CLICKOFF LNG V1
+
+;English language file
+;You can derrive your own language file from this one
+;Just translate all strings you find from English
+;to your own language.
+;Don't change the numbers in []
+;The maximum text length is 511 characters
+
+;Linksklick
+[0]
+"Left click"
+
+;Rechtsklick
+[1]
+"Right click"
+
+;Fenster schließen
+[2]
+"Close window"
+
+;Button-Message
+[3]
+"Button message"
+
+;Fenster maximieren
+[4]
+"Maximize window"
+
+;Fenster minimieren
+[5]
+"Minimize window"
+
+;Klick>Alt-Tab
+[6]
+"Click and return"
+
+;Text eingeben
+[7]
+"Enter text"
+
+;Linksklick auf Punkt
+[8]
+"Left-click point"
+
+;ClickOff Fensterliste
+[100]
+"ClickOff list"
+
+;Beenden
+[101]
+"&Quit ClickOff"
+
+;Schließen
+[103]
+"&Hide ClickOff"
+
+;Halten sie die Maus über ein Fenster oder einen Button und drücken Sie den Hotkey (Standard: Strg+Alt+D) um einen Eintrag hinzuzufügen
+[105]
+"Point the mouse on a window or button and press the hotkey (default: Ctrl+Alt+D) to add a new entry."
+
+;&Fenster:
+[110]
+"Window list:"
+
+;&Entfernen
+[112]
+"&Remove"
+
+;Erweitert
+[113]
+"Ad&vanced"
+
+;&Programm aktiv
+[114]
+"Scan &windows"
+
+;Über ClickOff
+[300]
+"ClickOff 1.90"
+
+[302]
+"This freeware program clicks off annoying (Error)messages.
+Check out my homepage for updates."
+
+[303]
+"In case of problems read the FAQ, then ask for help"
+
+[304]
+"&Show FAQ"
+
+[305]
+"&Ask for help"
+
+[307]
+"Contact"
+
+;Add your own credits here
+[308]
+"Language file: english.lng by Johannes Hübner"
+
+[312]
+"Total clicks"
+
+;Erweitert
+[500]
+"Advanced Properties"
+
+[501]
+"Timing/Delay"
+
+[502]
+"No delay"
+
+[503]
+"&Cancel"
+
+[504]
+"O&K"
+
+[507]
+"&Clicking event"
+
+[508]
+"&Never click"
+
+[509]
+"&Always click"
+
+[510]
+"Click if &message= (Detect with hotkey)"
+
+[511]
+"&Detect text"
+
+[513]
+"Click&off method"
+
+[514]
+"Act on window only once after appearance"
+
+[515]
+"Times clicked"
+
+[517]
+"times."
+
+[518]
+"&Title"
+
+[520]
+"Delay &before"
+
+[521]
+"&Button text"
+
+[524]
+"seconds"
+
+[525]
+"Delay &after"
+
+[526]
+"for:"
+
+[600]
+"Add Window"
+
+[800]
+"Detect"
+
+[801]
+"Point 2 seconds on the button to be detected."
+
+[802]
+"Information"
+
+[900]
+"Settings"
+
+[901]
+"&Enable"
+
+[902]
+"Hotkey for adding"
+
+[911]
+"Performance"
+
+[904]
+"Key combination"
+
+[906]
+"Display &tray icon"
+
+[907]
+"ms"
+
+[908]
+"&Program language"
+
+[909]
+"Log &file"
+
+[912]
+"Check interval"
+
+[1001]
+"&Show ClickOff..."
+
+[1002]
+"&Settings..."
+
+[1003]
+"&Enable"
+
+[1004]
+"Add &window"
+
+[1005]
+"&About..."
+
+[1006]
+"&Help"
+
+[1007]
+"Dismiss menu"
+
+[1008]
+"&Exit"
+
+[1010]
+"&Sort list"
+
+[1011]
+"Asccending by &window title"
+
+[1012]
+"Desending by w&indow title"
+
+[1013]
+"Ascending by &button text"
+
+[1014]
+"Descending by b&utton text"
+
+[1015]
+"Ascending by &message text"
+
+[1016]
+"Descending by m&essage text"
+
+[1017]
+"Ascending by &click count"
+
+[1020]
+"&Export list"
+
+[1021]
+"&Entire list"
+
+[1022]
+"&Selection"
+
+[1031]
+"Select &all"
+
+[1032]
+"In&vert selection"
+
+[1033]
+"&Delete selected"
+
+[1034]
+"&Import list"
+
+[1036]
+"Remove &duplicates"
+
+;ClickOff - deaktiviert
+[10001]
+"ClickOff - disabled"
+
+[10004]
+"User error"
+
+[10005]
+"Warning"
+
+;Help file topic for english pages
+[10006]
+"getting_started_en.html"
+
+;Kann nicht auf die ClickOff-Liste zugreifen
+[10007]
+"Cannot access ClickOff list file"
+
+;ClickOff Liste unvollständig, möglicherweise wegen einem vorhergehenden Absturz
+[10008]
+"Unexpected end of file, maybe you just had a system crash?"
+
+;Formatfehler in ClickOff-Liste. Haben Sie die Datei von Hand bearbeitet?
+[10009]
+"Syntax error in ClickOff list. Did you try to edit it yourself?"
+
+;Unbekannter Tag in ClickOff-Liste.
+;-Haben Sie die Datei von Hand bearbeitet?
+;-Stammt die Datei von einer neueren Version?
+;
+;Beim erneuten Speichern werden u.U. Informationen verloren gehen.
+[10010]
+"Unknown tag in ClickOff list.
+-Did you try to edit it yourself?
+-Has it been written by a newer Version?
+
+You might loose information when file is written by this version."
+
+;E/A-Fehler
+[10011]
+"I/O error"
+
+;"Listen\0*.lst\0Alle Dateien\0*.*\0\0"
+[10012]
+"List files\0*.lst\0All Files\0*.*\0\0"
+
+;Wenn kein Hotkey definiert ist, können keine Fenster hinzugefügt werden!
+[10013]
+"If you don't define a hotkey, you cannot add any new windows!"
+
+;Ausfüllen mit
+[10014]
+"Fill in:"
